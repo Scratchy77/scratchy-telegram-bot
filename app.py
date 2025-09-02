@@ -37,8 +37,7 @@ def webhook():
         return "no chat", 200
 
     if text == "/start":
-        reply = "Ciao! Sono vivo su <b>Render</b> 🚀
-Prova a scrivermi qualcosa."
+        reply = "Ciao! Sono vivo su <b>Render</b> 🚀\nProva a scrivermi qualcosa."
     else:
         reply = f"Ho ricevuto: <b>{text}</b>" if text else "Messaggio ricevuto!"
 
